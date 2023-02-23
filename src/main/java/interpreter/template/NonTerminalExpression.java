@@ -3,7 +3,7 @@ package interpreter.template;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NonTerminalExpression extends AbstractExpression{
+public class NonTerminalExpression {
 
     private List<AbstractExpression> grammar = new ArrayList<>();
     private Context context;
@@ -38,8 +38,4 @@ public class NonTerminalExpression extends AbstractExpression{
         return context.output;
     }
 
-    @Override
-    public void interpreter(Context context) {
-
-    }
 }
