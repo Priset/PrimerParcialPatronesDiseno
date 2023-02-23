@@ -6,6 +6,7 @@ public class Singleton3 {
 
     //2) constructor private
     private Singleton3(){
+
         System.out.println("Creacion deberia mostrarse 1 sola vez  SINGLETON 3");
     }
 
